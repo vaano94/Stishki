@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_myaccount"
+            android:checked="true"
+            android:icon="@drawable/ic_person_24dp"
+            android:title="@string/my_account" />
+        <item
+            android:id="@+id/navigation_item_user_poems"
+            android:icon="@drawable/ic_rate_review_24dp"
+            android:title="@string/my_poems" />
+
+    </group>
+
+    <item android:title="@string/nav_sub_menu">
+        <menu>
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="Тег 1" />
+            <item
+                android:icon="@drawable/ic_emoticon"
+                android:title="Тег 2" />
+        </menu>
+    </item>
+
+</menu>

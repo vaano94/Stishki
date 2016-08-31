@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_registration"
+    tools:context="com.stishki.iva.RegistrationActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:content="@string/regact_reglabel"
+        android:id="@+id/reg_reg_label"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:content="@string/regact_namelabel"
+        android:id="@+id/regact_namelabel"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/reg_reg_label"
+        android:layout_alignStart="@+id/reg_edit_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:id="@+id/reg_edit_name"
+        android:layout_below="@+id/regact_namelabel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:content="@string/regact_nicklabel"
+        android:id="@+id/regact_nicklabel"
+        android:layout_below="@+id/reg_edit_name"
+        android:layout_alignStart="@+id/reg_edit_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:id="@+id/reg_edit_nick"
+        android:layout_below="@+id/regact_nicklabel"
+        android:layout_alignStart="@+id/regact_nicklabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:content="@string/regact_passlabel"
+        android:id="@+id/reg_passlabel"
+        android:layout_below="@+id/reg_edit_nick"
+        android:layout_alignStart="@+id/reg_edit_nick" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:id="@+id/reg_edit_pass"
+        android:layout_below="@+id/reg_passlabel"
+        android:layout_alignStart="@+id/reg_passlabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:content="@string/reg_passrptlabel"
+        android:id="@+id/reg_passrptlabel"
+        android:layout_below="@+id/reg_edit_pass"
+        android:layout_alignStart="@+id/reg_edit_pass" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:id="@+id/reg_edit_passrpt"
+        android:layout_below="@+id/reg_passrptlabel"
+        android:layout_alignLeft="@+id/reg_edit_pass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:content="@string/reg_emaillabel"
+        android:id="@+id/reg_emaillabel"
+        android:layout_below="@+id/reg_edit_passrpt"
+        android:layout_alignStart="@+id/reg_edit_passrpt" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="15"
+        android:id="@+id/reg_edit_email"
+        android:layout_below="@+id/reg_emaillabel"
+        android:layout_alignStart="@+id/reg_emaillabel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:content="@string/reg_regbutton"
+        android:id="@+id/reg_regbutton"
+        android:layout_below="@+id/reg_edit_email"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Stishki</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginactivity_password">Пароль</string>
+    <string name="loginactivity_login">Логин</string>
+    <string name="loginactivity_logbutton">Войти</string>
+    <string name="login_nick_hint">ник</string>
+    <string name="login_pass_hint">пароль</string>
+    <string name="act_log_image">enterbutton</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="regact_reglabel">Регистрация</string>
+    <string name="regact_namelabel">Ваше имя</string>
+    <string name="regact_nicklabel">Придумайте ник</string>
+    <string name="regact_passlabel">Пароль</string>
+    <string name="reg_passrptlabel">Повторите пароль</string>
+    <string name="reg_emaillabel">E-mail</string>
+    <string name="reg_regbutton">Готово</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_main_logout">Log out</string>
+
+    <!-- TODO: Remove or change this placeholder content -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="nav_item_attachment">Attachment</string>
+    <string name="nav_item_images">Images</string>
+    <string name="nav_item_location">My Location</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="nav_sub_menu_item01">Тег 1</string>
+    <string name="nav_sub_menu_item02">Тег 2</string>
+    <string name="drawer_header_text">Мой профиль</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="list_row_from">от:</string>
+    <string name="title_activity_poem">PoemActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="my_account">Моя учетная запись</string>
+    <string name="my_poems">Мои стихи</string>
+    <string name="acc_user_name">Имя пользователя :</string>
+    <string name="acc_user_nick">Ник :</string>
+    <string name="acc_user_email">E-mail :</string>
+    <string name="no_account">нет аккаунта?</string>
+    <string name="title_activity_test_fragment">TestFragmentActivity</string>
+
+</resources>

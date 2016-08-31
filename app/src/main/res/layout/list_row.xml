@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:elevation="5dp"
+    android:focusable="false">
+
+
+    <TextView
+        android:textSize="13sp"
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="#B29D3F"
+        />
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/poem"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/list_item"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#939232"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/separator_line"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/poem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_thumb_up_24dp"
+        android:clickable="true"
+        android:layout_marginStart="30dp"
+        android:layout_alignTop="@+id/separator_line"
+        android:layout_alignStart="@id/separator_line"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_thumb_down_24dp"
+        android:layout_gravity="right"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginStart="32dp"
+        android:layout_alignTop="@+id/like"
+        android:layout_toEndOf="@+id/like" />
+
+
+
+</RelativeLayout>

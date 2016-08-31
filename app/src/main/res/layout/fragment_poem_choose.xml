@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_poem_container"
+    tools:context="com.stishki.iva.Fragments.PoemChooseFragment"
+    android:background="#E7E692"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Что вам бы хотелось написать?"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#2e2406"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:id="@+id/fragment_what_to_write" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/poem_choose_item"
+        android:textAlignment="center"
+        android:layout_below="@+id/fragment_what_to_write"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+</RelativeLayout>
